@@ -6,4 +6,5 @@ The base developed in this work has approximately 10 hours and 28 minutes of spe
 Since the audios were not recorded in an acoustic studio, there is noise present in the audio files, so we chose to use a noise suppression library. For this purpose we used the library [RNNoise](https://github.com/xiph/rnnoise) . It is based on Recurrent Neural Networks, more specifically Gated Recurrent Unit (GRU)  and demonstrated good performance for noise suppression. The base is open source, and public available under the terms of the license Creative Commons Attribution 4.0 (CC BY 4.0).
 
 Download this Dataset: [TTS-Portuguese Corpus](https://www.dropbox.com/s/ohpc7epowv9ct7o/TTS-Portuguese-Corpus.zip?dl=0)
-Cite:
+
+Cite this Dataset:
