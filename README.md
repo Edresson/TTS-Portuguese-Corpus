@@ -7,4 +7,8 @@ Since the audios were not recorded in an acoustic studio, there is noise present
 
 Download this Dataset: [TTS-Portuguese Corpus](https://www.dropbox.com/s/ohpc7epowv9ct7o/TTS-Portuguese-Corpus.zip?dl=0)
 
+Models trained in this corpus:
+
+[DCTTS model demo](https://colab.research.google.com/drive/1GwC1hp-gbuNC-_fk3Bm7k2kj6kG6SRsz)
+
 Cite this Dataset:
