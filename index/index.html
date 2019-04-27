@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.20.5" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/wavenet_vocoder/css/normalize.css">
+<link rel="stylesheet" href="/wavenet_vocoder/css/skeleton.css">
+<link rel="stylesheet" href="/wavenet_vocoder/css/custom.css">
+<link rel="alternate" href="/wavenet_vocoder/index.xml" type="application/rss+xml" title="An open source implementation of WaveNet vocoder">
+<link rel="shortcut icon" href="/wavenet_vocoder/favicon.png" type="image/x-icon" />
+<title>index - An open source implementation of WaveNet vocoder</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="/wavenet_vocoder//images/r9y9.jpg" width="70" height="70"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">index</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2018-01-04">January 04, 2018</time></span>
+			<section itemprop="entry-text">
+				
+
+<p><br/></p>
+
+<ul>
+<li>Github: <a href="https://github.com/r9y9/wavenet_vocoder">https://github.com/r9y9/wavenet_vocoder</a></li>
+</ul>
+
+<p>This page provides audio samples for the open source implementation of the <strong>WaveNet (WN)</strong> vocoder.
+Text-to-speech samples are found at the last section.</p>
+
+<ul>
+<li>WN conditioned on mel-spectrogram (16-bit linear PCM, 22.5kHz)</li>
+<li>WN conditioned on mel-spectrogram (8-bit mu-law, 16kHz)</li>
+<li>WN conditioned on mel-spectrogram and speaker-embedding (16-bit linear PCM, 16kHz)</li>
+<li>Tacotron2: WN-based text-to-speech (<strong>New!</strong>)</li>
+</ul>
+
+<h2 id="wn-conditioned-on-mel-spectrogram-16-bit-linear-pcm-22-5khz">WN conditioned on mel-spectrogram (16-bit linear PCM, 22.5kHz)</h2>
+
+<ul>
+<li>Samples from a model trained for over 400k steps.</li>
+<li>Left: generated, Right: ground truth</li>
+</ul>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/0_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/0_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/1_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/1_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/2_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/2_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/3_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/3_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/4_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/4_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/5_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/5_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/6_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/6_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/7_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/7_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/8_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/8_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/9_checkpoint_step000410000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/mixture_lj/9_checkpoint_step000410000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Data</td>
+<td>LJSpeech (12522 for training, 578 for testing)</td>
+</tr>
+
+<tr>
+<td>Input type</td>
+<td>16-bit linear PCM</td>
+</tr>
+
+<tr>
+<td>Sampling frequency</td>
+<td>22.5kHz</td>
+</tr>
+
+<tr>
+<td>Local conditioning</td>
+<td>80-dim mel-spectrogram</td>
+</tr>
+
+<tr>
+<td>Hop size</td>
+<td>256</td>
+</tr>
+
+<tr>
+<td>Global conditioning</td>
+<td>N/A</td>
+</tr>
+
+<tr>
+<td>Total layers</td>
+<td>24</td>
+</tr>
+
+<tr>
+<td>Num cycles</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>Residual / Gate / Skip-out channels</td>
+<td>512 / 512 / 256</td>
+</tr>
+
+<tr>
+<td>Receptive field (samples / ms)</td>
+<td>505 / 22.9</td>
+</tr>
+
+<tr>
+<td>Numer of mixtures</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>Number of upsampling layers</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="wn-conditioned-on-mel-spectrogram-8-bit-mu-law-16khz">WN conditioned on mel-spectrogram (8-bit mu-law, 16kHz)</h2>
+
+<ul>
+<li>Samples from a model trained for 100k steps (~22 hours)</li>
+<li>Left: generated, Right: (mu-law encoded) ground truth</li>
+</ul>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/0_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/0_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/1_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/1_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/2_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/2_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/3_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/3_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/4_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/4_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/5_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/5_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/6_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/6_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/7_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/7_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/8_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/8_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/9_checkpoint_step000100000_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/slt/9_checkpoint_step000100000_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Data</td>
+<td>CMU ARCTIC (<code>clb</code>) (1183 for training, 50 for testing)</td>
+</tr>
+
+<tr>
+<td>Input type</td>
+<td>8-bit mu-law encoded one-hot vector</td>
+</tr>
+
+<tr>
+<td>Sampling frequency</td>
+<td>16kHz</td>
+</tr>
+
+<tr>
+<td>Local conditioning</td>
+<td>80-dim mel-spectrogram</td>
+</tr>
+
+<tr>
+<td>Hop size</td>
+<td>256</td>
+</tr>
+
+<tr>
+<td>Global conditioning</td>
+<td>N/A</td>
+</tr>
+
+<tr>
+<td>Total layers</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>Num cycles</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>Residual / Gate / Skip-out channels</td>
+<td>512 / 512 / 256</td>
+</tr>
+
+<tr>
+<td>Receptive field (samples / ms)</td>
+<td>1021 / 63.8</td>
+</tr>
+
+<tr>
+<td>Number of upsampling layers</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="wn-conditioned-on-mel-spectrogram-and-speaker-embedding-16-bit-linear-pcm-16khz">WN conditioned on mel-spectrogram and speaker-embedding (16-bit linear PCM, 16kHz)</h2>
+
+<ul>
+<li>Samples from a model trained for over 1000k steps</li>
+<li>Left: generated, Right: ground truth</li>
+</ul>
+
+<p><strong>awb</strong></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker0_12_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker0_12_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker0_7_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker0_7_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><strong>bdl</strong></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker1_2_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker1_2_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker1_33_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker1_33_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><strong>clb</strong></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker2_5_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker2_5_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker2_9_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker2_9_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><strong>jmk</strong></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker3_24_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker3_24_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker3_30_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker3_30_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><strong>ksp</strong></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker4_25_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker4_25_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker4_3_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker4_3_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><strong>rms</strong></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker5_0_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker5_0_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker5_1_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker5_1_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><strong>slt</strong></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker6_4_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker6_4_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker6_6_checkpoint_step000740000_ema_predicted.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/wavenet_vocoder/audio/cmu_arctic_multispeaker/speaker6_6_checkpoint_step000740000_ema_target.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Data</td>
+<td>CMU ARCTIC (7580 for training, 350 for testing)</td>
+</tr>
+
+<tr>
+<td>Input type</td>
+<td>16-bit linear PCM</td>
+</tr>
+
+<tr>
+<td>Local conditioning</td>
+<td>80-dim mel-spectrogram</td>
+</tr>
+
+<tr>
+<td>Hop size</td>
+<td>256</td>
+</tr>
+
+<tr>
+<td>Global conditioning</td>
+<td>16-dim speaker embedding <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup></td>
+</tr>
+
+<tr>
+<td>Total layers</td>
+<td>24</td>
+</tr>
+
+<tr>
+<td>Num cycles</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>Residual / Gate / Skip-out channels</td>
+<td>512 / 512 / 256</td>
+</tr>
+
+<tr>
+<td>Receptive field (samples / ms)</td>
+<td>505 / 22.9</td>
+</tr>
+
+<tr>
+<td>Numer of mixtures</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>Number of upsampling layers</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="tacotron2-wn-based-text-to-speech">Tacotron2: WN-based text-to-speech</h2>
+
+<ul>
+<li>Tacotron2 (mel-spectrogram prediction part): trained 189k steps on LJSpeech dataset (<a href="https://www.dropbox.com/s/vx7y4qqs732sqgg/pretrained.tar.gz?dl=0">Pre-trained model</a>, <a href="https://github.com/r9y9/Tacotron-2/blob/9ce1a0e65b9217cdc19599c192c5cd68b4cece5b/hparams.py">Hyper params</a>). The work has been done by <a href="https://github.com/Rayhane-mamah">@Rayhane-mamah</a>. See <a href="https://github.com/Rayhane-mamah/Tacotron-2">https://github.com/Rayhane-mamah/Tacotron-2</a> for details.</li>
+<li>WaveNet: trained over 1000k steps on LJSpeech dataset (<a href="https://www.dropbox.com/s/zdbfprugbagfp2w/20180510_mixture_lj_checkpoint_step000320000_ema.pth?dl=0">Pre-trained model</a>, <a href="https://www.dropbox.com/s/0vsd7973w20eskz/20180510_mixture_lj_checkpoint_step000320000_ema.json?dl=0">Hyper params</a>)</li>
+</ul>
+
+<p>Scientists at the CERN laboratory say they have discovered a new particle.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00001.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>There&rsquo;s a way to measure the acute emotional intelligence that has never gone out of style.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00002.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>President Trump met with other leaders at the Group of 20 conference.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00003.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>The Senate&rsquo;s bill to repeal and replace the Affordable Care Act is now imperiled.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00004.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Generative adversarial network or variational auto-encoder.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00005.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Basilar membrane and otolaryngology are not auto-correlations.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00006.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>He has read the whole thing.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00007.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>He reads books.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00008.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Don&rsquo;t desert me here in the desert!</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00009.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>He thought it was time to present the present.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00010.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Thisss isrealy awhsome.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00011.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Punctuation sensitivity, is working.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00012.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Punctuation sensitivity is working.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00013.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>The buses aren&rsquo;t the problem, they actually provide a solution.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00014.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>The buses aren&rsquo;t the PROBLEM, they actually provide a SOLUTION.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00015.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>The quick brown fox jumps over the lazy dog.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00016.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Does the quick brown fox jump over the lazy dog?</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00017.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>Peter Piper picked a peck of pickled peppers. How many pickled peppers did Peter Piper pick?</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00018.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>She sells sea-shells on the sea-shore. The shells she sells are sea-shells I&rsquo;m sure.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00019.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<p>The blue lagoon is a nineteen eighty American romance adventure film.</p>
+
+<p><audio controls="controls" >
+<source src="/wavenet_vocoder/audio/tacotron2/20180510_mixture_lj_checkpoint_step000320000_ema_speech-mel-00020.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+<h3 id="on-line-demo">On-line demo</h3>
+
+<p>A demonstration notebook supposed to be run on Google colab can be found at <a href="https://colab.research.google.com/github/r9y9/Colaboratory/blob/master/Tacotron2_and_WaveNet_text_to_speech_demo.ipynb">Tacotron2: WaveNet-basd text-to-speech demo</a>.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://arxiv.org/abs/1609.03499">Aaron van den Oord, Sander Dieleman, Heiga Zen, et al, &ldquo;WaveNet: A Generative Model for Raw Audio&rdquo;,  arXiv:1609.03499, Sep 2016.</a></li>
+<li><a href="https://arxiv.org/abs/1711.10433">Aaron van den Oord, Yazhe Li, Igor Babuschkin, et al, &ldquo;Parallel WaveNet: Fast High-Fidelity Speech Synthesis&rdquo;,   arXiv:1711.10433, Nov 2017.</a></li>
+<li><a href="http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0314.PDF">Tamamori, Akira, et al. &ldquo;Speaker-dependent WaveNet vocoder.&rdquo; Proceedings of Interspeech. 2017.</a></li>
+<li><a href="https://arxiv.org/abs/1712.05884">Jonathan Shen, Ruoming Pang, Ron J. Weiss, et al, &ldquo;Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions&rdquo;, arXiv:1712.05884, Dec 2017.</a></li>
+<li><a href="https://arxiv.org/abs/1710.07654">Wei Ping, Kainan Peng, Andrew Gibiansky, et al, &ldquo;Deep Voice 3: 2000-Speaker Neural Text-to-Speech&rdquo;, arXiv:1710.07654, Oct. 2017.</a></li>
+<li><a href="https://arxiv.org/abs/1712.05884">Jonathan Shen, Ruoming Pang, Ron J. Weiss, et al, &ldquo;Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions&rdquo;,    arXiv:1712.05884, Dec 2017.</a></li>
+</ul>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Note that mel-spectrogram used in local conditioning is dependent on speaker characteristics, so we cannot simply change the speaker identity of the generated audio samples using the model. It should work without speaker embedding, but it might have helped training speed.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+				
+<div class="social">
+    <div>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="r9y9" data-text="index" data-related="r9y9">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+</div>
+
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<address>
+			<div class="avatar-bottom">
+				<a href="/">
+					
+					<img src="/images/r9y9.jpg">
+					
+				</a>
+			</div>
+
+		<div class="copyright">Copyright &copy;
+			<a href="/about">Ryuichi YAMAMOTO</a> All rights reserved.
+
+			<a href="https://github.com/r9y9">
+				<span class="github">r9y9@Github</span>
+			</a>
+		</div>
+		</address>
+	</footer>
+
+</div>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-44433856-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+         HTML: ["input/TeX","output/HTML-CSS"],
+         TeX: {
+                Macros: {
+                         bm: ["\\boldsymbol{#1}", 1],
+                         argmax: ["\\mathop{\\rm arg\\,max}\\limits"],
+                         argmin: ["\\mathop{\\rm arg\\,min}\\limits"]},
+                extensions: ["AMSmath.js","AMSsymbols.js"],
+                equationNumbers: { autoNumber: "AMS" } },
+         extensions: ["tex2jax.js"],
+         jax: ["input/TeX","output/HTML-CSS"],
+         tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true },
+         "HTML-CSS": { availableFonts: ["TeX"],
+                       linebreaks: { automatic: true } }
+     });
+ </script>
+
+ <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+       tex2jax: {
+         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+       }
+     });
+ </script>
+
+<script type="text/javascript"
+   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+
+</body>
+</html>
+

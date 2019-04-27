@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.20.5" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/TTS-Portuguese-Corpus/css/normalize.css">
+<link rel="stylesheet" href="/wTTS-Portuguese-Corpus/css/skeleton.css">
+<link rel="stylesheet" href="/TTS-Portuguese-Corpus/css/custom.css">
+<link rel="alternate" href="TTS-Portuguese-Corpus/index.xml" type="application/rss+xml" title="An open source implementation of WaveNet vocoder">
+<link rel="shortcut icon" href="/TTS-Portuguese-Corpus/favicon.png" type="image/x-icon" />
+<title>An open source implementation of WaveNet vocoder</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="/TTS-Portuguese-Corpus/images/r9y9.jpg" width="70" height="70"></a>
+		</div>
+		<h1 class="site-title">An open source implementation of WaveNet vocoder</h1>
+	</header>
+
+
+    
+        
+
+<p><br/></p>
+
+<ul>
+<li>Github: <a href="https://github.com/Edresson/TTS-Portuguese-Corpus">https://github.com/Edresson/TTS-Portuguese-Corpus</a></li>
+</ul>
+
+<p>This page provides audio samples obtained using the <strong> TTS-Portuguese Corpus </strong>.</p>
+
+<ul>
+<li>Experiment 1.1 uses the DCTTS model trained using texts (vocoder RTISI-LA).</li>
+<li>Experiment 1.2 uses the DCTTS model trained using texts and applies in synthesized audio to the noise suppression library <a href="https://github.com/Edresson/TTS-Portuguese-Corpus">Rnnoise</a>(vocoder RTISI-LA)</li>
+<li>Experiment 2.1 uses the DCTTS model trained using phonetic transcriptions of texts (vocoder RTISI-LA) </li>
+<li>Experiment 2.2 uses the DCTTS model trained using phonetic transcriptions of texts and applies in synthesized audio to the noise suppression library <a href="https://github.com/Edresson/TTS-Portuguese-Corpus">Rnnoise</a> (vocoder RTISI-LA)</li>
+<li>Experiment 3.1 uses the DCTTS model trained using texts and uses the <a href="https://github.com/Edresson/WaveRNN-Pytorch">WaveRNN vocoder</a> </li>
+<li>Experiment 3.2 uses the DCTTS model trained using texts and uses the <a href="https://github.com/Edresson/WaveRNN-Pytorch">WaveRNN vocoder</a> and applies in synthesized audio to the noise suppression library <a href="https://github.com/Edresson/TTS-Portuguese-Corpus">Rnnoise</a></li>
+</ul>
+
+<p>The phrases used for the comparison are:</p>
+<ol>
+<li> A inauguração da vila é quarta ou quinta-feira </li>
+<li> Vote se você tiver o título de eleitor</li>
+<li> Hoje é fundamental encontrar a razão da existência humana</li>
+<li> A temperatura é mais amena à noite</li>
+<li> Em muitas cidades a população está diminuindo.</li>
+<li> Nunca se deve ficar em cima do morro</li>
+<li> Para as pessoas estranhas o panorama é desolador</li>
+<li> É bom te ver colhendo flores menino</li>
+<li> Eu finjo me banhar num lago ao amanhecer</li>
+<li> Sua sensibilidade mostrará o caminho</li>
+<li> A Amazônia é a reserva ecológica do globo</li>
+<li> O ministério mudou demais com a eleição</li>
+<li> Novas metas surgem na informática</li>
+<li> O capital de uma empresa depende de sua produção</li>
+<li> Se não fosse ela tudo teria sido melhor</li>
+<li> A principal personagem no filme é uma gueixa</li>
+<li> Espere seu amigo em casa</li>
+<li> A juventude tinha que revolucionar a escola</li>
+<li> A cantora terá quatro meses para ensaiar seu canto</li>
+<li> Esse tema foi falado no congresso.</li>
+</ol>
+
+<h2 id="exp1">Experiment 1.1 (DCTTS+Text+RTISI-LA)</h2>
+
+<ul>
+<li>Samples synthesized by the model</li>
+<li>Left: synthesized, Right: ground truth</li>
+</ul>
+
+<p><audio controls="controls" >
+<a> 
+Phrase 1</a><source src="/TTS-Portuguese-Corpus/audio/Experimento1-DCTTS-text/1.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/TTS-Portuguese-Corpus/audio/Esperado/1.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+Phrase 2</a><source src="/TTS-Portuguese-Corpus/audio/Experimento1-DCTTS-text/2.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/TTS-Portuguese-Corpus/audio/Esperado/2.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+Phrase 3</a><source src="/TTS-Portuguese-Corpus/audio/Experimento1-DCTTS-text/3.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/TTS-Portuguese-Corpus/audio/Esperado/3.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+Phrase 4</a><source src="/TTS-Portuguese-Corpus/audio/Experimento1-DCTTS-text/4.wav" autoplay/>
+Your browser does not support the audio element.
+</audio>
+<audio controls="controls" >
+<source src="/TTS-Portuguese-Corpus/audio/Esperado/4.wav" autoplay/>
+Your browser does not support the audio element.
+</audio></p>
+
+
+<h3 id="on-line-demo">On-line demo</h3>
+
+<p>A demonstration notebook supposed to be run on Google colab can be found at <a href="">DCTTS+Text+RTISI-LA</a>.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li></li>
+</ul>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<address>
+			<div class="avatar-bottom">
+				<a href="/">
+					
+					<img src="/images/r9y9.jpg">
+					
+				</a>
+			</div>
+
+		<div class="copyright">Copyright &copy;
+			<a href="/about">Ryuichi YAMAMOTO</a> All rights reserved.
+
+			<a href="https://github.com/r9y9">
+				<span class="github">r9y9@Github</span>
+			</a>
+		</div>
+		</address>
+	</footer>
+
+</div>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-44433856-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+         HTML: ["input/TeX","output/HTML-CSS"],
+         TeX: {
+                Macros: {
+                         bm: ["\\boldsymbol{#1}", 1],
+                         argmax: ["\\mathop{\\rm arg\\,max}\\limits"],
+                         argmin: ["\\mathop{\\rm arg\\,min}\\limits"]},
+                extensions: ["AMSmath.js","AMSsymbols.js"],
+                equationNumbers: { autoNumber: "AMS" } },
+         extensions: ["tex2jax.js"],
+         jax: ["input/TeX","output/HTML-CSS"],
+         tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true },
+         "HTML-CSS": { availableFonts: ["TeX"],
+                       linebreaks: { automatic: true } }
+     });
+ </script>
+
+ <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+       tex2jax: {
+         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+       }
+     });
+ </script>
+
+<script type="text/javascript"
+   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+
+</body>
+</html>
+

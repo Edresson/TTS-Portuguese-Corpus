@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>An open source implementation of WaveNet vocoder</title>
+    <link>https://r9y9.github.io/wavenet_vocoder/</link>
+    <description>Recent content on An open source implementation of WaveNet vocoder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 04 Jan 2018 19:42:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://r9y9.github.io/wavenet_vocoder/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>index</title>
+      <link>https://r9y9.github.io/wavenet_vocoder/index/</link>
+      <pubDate>Thu, 04 Jan 2018 19:42:01 +0900</pubDate>
+      
+      <guid>https://r9y9.github.io/wavenet_vocoder/index/</guid>
+      <description>Github: https://github.com/r9y9/wavenet_vocoder  This page provides audio samples for the open source implementation of the WaveNet (WN) vocoder. Text-to-speech samples are found at the last section.
+ WN conditioned on mel-spectrogram (16-bit linear PCM, 22.5kHz) WN conditioned on mel-spectrogram (8-bit mu-law, 16kHz) WN conditioned on mel-spectrogram and speaker-embedding (16-bit linear PCM, 16kHz) Tacotron2: WN-based text-to-speech (New!)  WN conditioned on mel-spectrogram (16-bit linear PCM, 22.5kHz)  Samples from a model trained for over 400k steps.</description>
+    </item>
+    
+  </channel>
+</rss>
