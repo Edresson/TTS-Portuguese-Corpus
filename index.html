@@ -38,11 +38,24 @@
 
 <ul>
 <li>Experiment 1.1 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using texts (vocoder RTISI-LA).</li>
-<li>Experiment 1.2 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using texts and applies in synthesized audio to the noise suppression library <a href="https://github.com/Edresson/TTS-Portuguese-Corpus">Rnnoise</a>(vocoder RTISI-LA)</li>
+<li>Experiment 1.2 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using texts and applies in synthesized audio to the noise suppression library <a href="https://github.com/xiph/rnnoise">Rnnoise</a>(vocoder RTISI-LA)</li>
 <li>Experiment 2.1 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using phonetic transcriptions of texts (vocoder RTISI-LA) </li>
-<li>Experiment 2.2 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using phonetic transcriptions of texts and applies in synthesized audio to the noise suppression library <a href="https://github.com/Edresson/TTS-Portuguese-Corpus">Rnnoise</a> (vocoder RTISI-LA)</li>
+<li>Experiment 2.2 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using phonetic transcriptions of texts and applies in synthesized audio to the noise suppression library <a href="https://github.com/xiph/rnnoise">Rnnoise</a> (vocoder RTISI-LA)</li>
 <li>Experiment 3.1 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using texts and uses the <a href="https://github.com/Edresson/WaveRNN-Pytorch">WaveRNN vocoder</a> </li>
-<li>Experiment 3.2 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using texts and uses the <a href="https://github.com/Edresson/WaveRNN-Pytorch">WaveRNN vocoder</a> and applies in synthesized audio to the noise suppression library <a href="https://github.com/Edresson/TTS-Portuguese-Corpus">Rnnoise</a></li>
+<li>Experiment 3.2 uses the <a href="https://github.com/Edresson/TTS-Conv">DCTTS</a> model trained using texts and uses the <a href="https://github.com/Edresson/WaveRNN-Pytorch">WaveRNN vocoder</a> and applies in synthesized audio to the noise suppression library <a href="https://github.com/xiph/rnnoise">Rnnoise</a></li>
+<li>Experiment 4.1 uses the <a href="https://github.com/Edresson/Text2World">DCC2WORLD</a> model which consists of a modified version of the DCTTS model that directly generates the <a href="https://github.com/mmorise/World">WORLD vocoder</a> characteristics from the text.</li>
+<li>Experiment 4.2  uses the <a href="https://github.com/Edresson/Text2World">DCC2WORLD</a> model which consists of a modified version of the DCTTS model that directly generates the <a href="https://github.com/mmorise/World">WORLD vocoder</a> characteristics from the text and applies in synthesized audio to the noise suppression library <a href="https://github.com/xiph/rnnoise">Rnnoise</a> </li>
+<li> Experiment 5.1 uses the <a href="https://github.com/Edresson/tacotron">Tacotron 1</a> model, trained in the TTS-Portuguese Corpus </li>
+<li>Experiment 5.2 is similar to the previous experiment, however, a 5 \% dropout and layer normalization was used in all convolutional and recurrent layers of the model</li>
+<li>Experiment 5.3 is similar to Experiment 5.1, however a pre-trained English model is used, after loading the weights of the pre-trained model, training is continued using the TTS-Portuguese Corpus base.</li>
+<li> Experiment 5.4 is similar to the previous experiment, however after synthesizing the audio it is postprocessed using the RNNoise noise suppression library.</li>
+<li>Experiment 6.1 This experiment explores the use of the  <a href="https://github.com/Edresson/TTS/tree/TTS-Portuguese-Corpus">TTS Mozilla</a> model , trained in the TTS-Portuguese Corpus.</li>
+<li>Experiment 6.2 is similar to Experiment 6.1, but after synthesizing the audio it is postprocessed using the RNNoise noise suppression library</li>
+<li>Experiment 6.3 is similar to the previous experiment, however a pre-trained model in the English language is used, after loading the weights of the pre-trained model the training is continued using the base TTS-Portuguese Corpus.
+</li>
+<li>Experiment 6.4 is similar to the previous experiment, but after synthesizing the audio it is postprocessed using the RNNoise noise suppression library.
+</li>
+
 </ul>
 
 <p>The phrases used for the comparison are:</p>
@@ -2849,6 +2862,7 @@ Your browser does not support the audio element.
 <source src="/TTS-Portuguese-Corpus/audio/Esperado/20.wav" autoplay/>
 Your browser does not support the audio element.
 </audio></p>
+
 
 
 
