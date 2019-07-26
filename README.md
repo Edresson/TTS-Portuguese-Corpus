@@ -9,6 +9,10 @@ Download this Dataset: [TTS-Portuguese Corpus](https://www.dropbox.com/s/ohpc7ep
 
 Models trained in this corpus:
 [DCTTS model demo](https://colab.research.google.com/drive/1GwC1hp-gbuNC-_fk3Bm7k2kj6kG6SRsz)
+[DCTTS+WaveRNN model demo](http://bit.do/demo-sintese-DCTTS-WaveRNN)
+[Tacotron 1 with Transfer Learning demo](https://colab.research.google.com/drive/1vs6GvanP6bqXevELH6iHObyKmHb-GG_G)
+[TTS Mozilla demo] (http://bit.do/demo-tts-mozilla-no-transfer)
+[TTS Mozilla with transfer Learning (Best)] (http://bit.do/demo-tts-mozilla)
 
 
 Audio samples synthesized with the dctts model: https://edresson.github.io/TTS-Portuguese-Corpus/
