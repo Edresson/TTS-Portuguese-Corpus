@@ -9,6 +9,15 @@ Download this Dataset: [TTS-Portuguese Corpus](https://www.dropbox.com/s/ohpc7ep
 
 Models trained in this corpus:
 
+| Experiment        |Link |
+| ------------- |:------:|
+| DCTTS model Colab demo (experiment 1.1) | http://bit.do/demo-sintese-DCTTS-text  |
+| DCTTS+WaveRNN model Colab demo (experiment 3.1) | http://bit.do/demo-sintese-DCTTS-WaveRNN |
+| Tacotron 1 model Colab demo (experiment 5.3) | http://bit.do/demo-sintese-DCTTS-text  |
+| TTS Mozilla model without no TL   Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla-no-transfer  |
+| TTS Mozilla model with TL  Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla-no-transfer  |
+| TTS Mozilla model with TL + Universal WaveRNN  Colab demo (experiment 7.1 - Best) | http://bit.do/tts-mozilla-tl-universal-wavernn  |
+
 [DCTTS model demo](https://colab.research.google.com/drive/1GwC1hp-gbuNC-_fk3Bm7k2kj6kG6SRsz)
 
 [DCTTS+WaveRNN model demo](http://bit.do/demo-sintese-DCTTS-WaveRNN)
