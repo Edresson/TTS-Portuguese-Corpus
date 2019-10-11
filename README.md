@@ -17,7 +17,10 @@ Models trained in this corpus:
 
 [TTS Mozilla demo](http://bit.do/demo-tts-mozilla-no-transfer)
 
-[TTS Mozilla with transfer Learning (Best)](http://bit.do/demo-tts-mozilla)
+[TTS Mozilla with transfer Learning](http://bit.do/demo-tts-mozilla)
+
+
+[TTS Mozilla with transfer Learning + Universal WaveRNN(Best Experiment) ](https://drive.google.com/file/d/1OHKfmd7uqJ7FyMYkKBFCyT0sXkLm21zv/view?usp=sharing)
 
 
 Audio samples synthesized with the dctts model: https://edresson.github.io/TTS-Portuguese-Corpus/
