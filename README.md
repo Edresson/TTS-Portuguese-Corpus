@@ -14,7 +14,7 @@ Models trained in this corpus:
 | DCTTS model Colab demo (experiment 1.1) | http://bit.do/demo-sintese-DCTTS-text  |
 | DCTTS+WaveRNN model Colab demo (experiment 3.1) | http://bit.do/demo-sintese-DCTTS-WaveRNN |
 | Tacotron 1 model Colab demo (experiment 5.3) | http://bit.do/demo-sintese-DCTTS-text  |
-| TTS Mozilla model without no TL   Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla-no-transfer  |
+| TTS Mozilla model without  TL   Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla-no-transfer  |
 | TTS Mozilla model with TL  Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla  |
 | TTS Mozilla model with TL + Universal WaveRNN  Colab demo (experiment 7.1 - Best) | http://bit.do/tts-mozilla-tl-universal-wavernn  |
 
