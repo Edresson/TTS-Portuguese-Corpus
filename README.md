@@ -19,7 +19,7 @@ Models trained in this corpus:
 | TTS Mozilla model with TL + Universal WaveRNN  Colab demo (experiment 7.1) | http://bit.do/tts-mozilla-tl-universal-wavernn  |
 |TTS Mozilla model with TL + Universal WaveRNN with TL  Colab demo (The Best Model) |http://bit.do/tts-mozilla-universal-wavernn-fine-tunnig |
 
-Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders
+Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : [Link](https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders)
 
 
 Audio samples synthesized with all models: https://edresson.github.io/TTS-Portuguese-Corpus/
