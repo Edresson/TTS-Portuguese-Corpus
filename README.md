@@ -16,7 +16,10 @@ Models trained in this corpus:
 | Tacotron 1 model Colab demo (experiment 5.3) | http://bit.do/demo-sintese-DCTTS-text  |
 | TTS Mozilla model without  TL   Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla-no-transfer  |
 | TTS Mozilla model with TL  Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla  |
-| TTS Mozilla model with TL + Universal WaveRNN  Colab demo (experiment 7.1 - Best) | http://bit.do/tts-mozilla-tl-universal-wavernn  |
+| TTS Mozilla model with TL + Universal WaveRNN  Colab demo (experiment 7.1) | http://bit.do/tts-mozilla-tl-universal-wavernn  |
+|TTS Mozilla model with TL + Universal WaveRNN with TL  Colab demo (The Best Model) |http://bit.do/tts-mozilla-universal-wavernn-fine-tunnig |
+
+Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders
 
 
 Audio samples synthesized with the dctts model: https://edresson.github.io/TTS-Portuguese-Corpus/
