@@ -22,7 +22,7 @@ Models trained in this corpus:
 Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders
 
 
-Audio samples synthesized with the dctts model: https://edresson.github.io/TTS-Portuguese-Corpus/
+Audio samples synthesized with all models: https://edresson.github.io/TTS-Portuguese-Corpus/
 
 
 Cite this Dataset:
