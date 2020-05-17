@@ -27,9 +27,12 @@ Audio samples synthesized with all models: https://edresson.github.io/TTS-Portug
 
 Cite this Dataset:
 
+```
 @article{casanova2020end,
   title={End-To-End Speech Synthesis Applied to Brazilian Portuguese},
   author={Casanova, Edresson and Junior, Arnaldo Candido and de Oliveira, Frederico Santos and Shulby, Christopher and Teixeira, Jo{\~a}o Paulo and Ponti, Moacir Antonelli and Aluisio, Sandra Maria},
   journal={arXiv preprint arXiv:2005.05144},
   year={2020}
 }
+
+```
