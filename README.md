@@ -11,13 +11,13 @@ Models trained in this corpus:
 
 | Experiment        |Link |
 | ------------- |:------:|
-| DCTTS model Colab demo (experiment 1.1) | http://bit.do/demo-sintese-DCTTS-text  |
-| DCTTS+WaveRNN model Colab demo (experiment 3.1) | http://bit.do/demo-sintese-DCTTS-WaveRNN |
-| Tacotron 1 model Colab demo (experiment 5.3) | http://bit.do/demo-sintese-DCTTS-text  |
-| TTS Mozilla model without  TL   Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla-no-transfer  |
-| TTS Mozilla model with TL  Colab demo (experiment 6.3) | http://bit.do/demo-tts-mozilla  |
-| TTS Mozilla model with TL + Universal WaveRNN  Colab demo (experiment 7.1) | http://bit.do/tts-mozilla-tl-universal-wavernn  |
-|TTS Mozilla model with TL + Universal WaveRNN with TL  Colab demo (The Best Model) |http://bit.do/tts-mozilla-universal-wavernn-fine-tunnig |
+| DCTTS model Colab demo (experiment 1.1) | https://drive.google.com/file/d/1tlmk4DCtYgvUUcJgOPHXPw9o2ysnbVbg/view  |
+| DCTTS+WaveRNN model Colab demo (experiment 3.1) | https://colab.research.google.com/drive/160GFTlTUWBx8UiC_mzAy4HdBO2XU8Rn5 |
+| Tacotron 1 model Colab demo (experiment 5.3) | https://drive.google.com/file/d/1tlmk4DCtYgvUUcJgOPHXPw9o2ysnbVbg/view  |
+| TTS Mozilla model without  TL   Colab demo (experiment 6.3) | https://drive.google.com/file/d/19r-IDQiG1FmcmSOlIStGl6u_H3kFJQKk/view  |
+| TTS Mozilla model with TL  Colab demo (experiment 6.3) | https://drive.google.com/file/d/1OZ7T5fqR-QPyN5O6HFetkOeHNCKbdGsA/view  |
+| TTS Mozilla model with TL + Universal WaveRNN  Colab demo (experiment 7.1) | https://drive.google.com/file/d/1OHKfmd7uqJ7FyMYkKBFCyT0sXkLm21zv/view |
+|TTS Mozilla model with TL + Universal WaveRNN with TL  Colab demo (The Best Model) |https://colab.research.google.com/drive/1b5Yo0sghajCrjftolN0LbArZzar7fd01?usp=sharing |
 
 Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : [Link](https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders)
 
