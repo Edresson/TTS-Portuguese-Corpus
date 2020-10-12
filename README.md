@@ -25,7 +25,9 @@ Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-
 Audio samples synthesized with all models: https://edresson.github.io/TTS-Portuguese-Corpus/
 
 
-Cite this Dataset:
+**Cite this Dataset:**
+
+Preprint:
 
 ```
 @article{casanova2020end,
@@ -35,4 +37,9 @@ Cite this Dataset:
   year={2020}
 }
 
+```
+
+Full Paper:
+```
+coming soon
 ```
