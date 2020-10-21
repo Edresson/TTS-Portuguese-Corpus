@@ -7,6 +7,8 @@ Since the audios were not recorded in an acoustic studio, there is noise present
 
 Download this Dataset: [TTS-Portuguese Corpus](https://www.dropbox.com/s/ohpc7epowv9ct7o/TTS-Portuguese-Corpus.zip?dl=0)
 
+**Audio samples** synthesized with best models: https://edresson.github.io/TTS-Portuguese-Corpus/
+
 Models trained in this corpus:
 
 | Model       |Colab Demo URL |
@@ -20,9 +22,6 @@ Models trained in this corpus:
 |TTS Mozilla model with TL + Universal WaveRNN with TL (Experiment 3) (The Best Model) |https://colab.research.google.com/drive/1b5Yo0sghajCrjftolN0LbArZzar7fd01?usp=sharing |
 
 Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : [Link](https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders)
-
-
-Audio samples synthesized with best models: https://edresson.github.io/TTS-Portuguese-Corpus/
 
 
 **Cite this Dataset:**
