@@ -24,6 +24,14 @@ Models trained in this corpus:
 Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : [Link](https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders)
 
 
+
+## NEW
+
+| Model       |Colab Demo URL |
+| ------------- |:------:|
+|GlowTTS model + HiFi-GAN-FT |https://colab.research.google.com/drive/1sh96-f9J2BJcLm1rz5KBkwq3YP83bEr5?usp=sharing  |
+
+
 **Cite this Dataset:**
 
 Preprint:
