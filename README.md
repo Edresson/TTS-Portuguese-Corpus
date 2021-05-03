@@ -14,12 +14,7 @@ Models trained in this corpus:
 | Model       |Colab Demo URL |
 | ------------- |:------:|
 | DCTTS model (Experiment 1) | https://drive.google.com/file/d/1tlmk4DCtYgvUUcJgOPHXPw9o2ysnbVbg/view  |
-| DCTTS+WaveRNN model  | https://colab.research.google.com/drive/160GFTlTUWBx8UiC_mzAy4HdBO2XU8Rn5 |
-| Tacotron 1 model  (Experiment 2) | https://drive.google.com/file/d/1tlmk4DCtYgvUUcJgOPHXPw9o2ysnbVbg/view  |
-| TTS Mozilla model without  TL    | https://drive.google.com/file/d/19r-IDQiG1FmcmSOlIStGl6u_H3kFJQKk/view  |
-| TTS Mozilla model with TL  | https://drive.google.com/file/d/1OZ7T5fqR-QPyN5O6HFetkOeHNCKbdGsA/view  |
-| TTS Mozilla model with TL + Universal WaveRNN  | https://drive.google.com/file/d/1OHKfmd7uqJ7FyMYkKBFCyT0sXkLm21zv/view |
-|TTS Mozilla model with TL + Universal WaveRNN with TL (Experiment 3) (The Best Model) |https://colab.research.google.com/drive/1b5Yo0sghajCrjftolN0LbArZzar7fd01?usp=sharing |
+|TTS Mozilla model (Tacotron) |https://colab.research.google.com/drive/1b5Yo0sghajCrjftolN0LbArZzar7fd01?usp=sharing |
 
 Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-wavernn.wav) vocoder : [Link](https://soundcloud.com/user-797601460/sets/tts-mozilla-trained-in-tts-portuguese-corpus-with-wavernn-and-griffinlim-vocoders)
 
