@@ -11,6 +11,8 @@ Download this Dataset:
 
 [TTS-Portuguese Corpus 22Khz (with train, dev and test subsets)](https://drive.google.com/file/d/1ujlfIl7iN-0HJ2vAtbZGFbP43u-NBFav/view?usp=sharing)
 
+Using [Gdown](https://github.com/wkentaro/gdown): ```gdown --id 1ujlfIl7iN-0HJ2vAtbZGFbP43u-NBFav```
+
 **Audio samples** synthesized with best models: https://edresson.github.io/TTS-Portuguese-Corpus/
 
 Models trained in this corpus:
