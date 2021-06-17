@@ -5,7 +5,11 @@ The dataset developed in this work has approximately 10 hours and 28 minutes of 
 
 Since the audios were not recorded in an acoustic studio, there is noise present in the audio files, so we chose to use a noise suppression library. For this purpose we used the library [RNNoise](https://github.com/xiph/rnnoise) . It is based on Recurrent Neural Networks, more specifically Gated Recurrent Unit (GRU)  and demonstrated good performance for noise suppression. The dataset is open source, and public available under the terms of the license Creative Commons Attribution 4.0 (CC BY 4.0).
 
-Download this Dataset: [TTS-Portuguese Corpus](https://drive.google.com/file/d/19Wx6b-Wq49EJ9qVrH01J5aWok0GzIn13/view?usp=sharing)
+Download this Dataset: 
+
+[TTS-Portuguese Corpus 48Khz (as recorded)](https://drive.google.com/file/d/19Wx6b-Wq49EJ9qVrH01J5aWok0GzIn13/view?usp=sharing)
+
+[TTS-Portuguese Corpus 22Khz (with train, dev and test subsets)](https://drive.google.com/file/d/1ujlfIl7iN-0HJ2vAtbZGFbP43u-NBFav/view?usp=sharing)
 
 **Audio samples** synthesized with best models: https://edresson.github.io/TTS-Portuguese-Corpus/
 
