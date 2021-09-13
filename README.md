@@ -38,11 +38,13 @@ Synthesized samples of the best model with Griffin–Lim (1.wav) and WaveRNN (1-
 Preprint:
 
 ```
-@article{casanova2020end,
-  title={End-To-End Speech Synthesis Applied to Brazilian Portuguese},
-  author={Casanova, Edresson and Junior, Arnaldo Candido and Shulby, Christopher and de Oliveira, Frederico Santos and Teixeira, Jo{\~a}o Paulo and Ponti, Moacir Antonelli and Aluisio, Sandra Maria},
-  journal={arXiv preprint arXiv:2005.05144},
-  year={2020}
+@misc{casanova2020ttsportuguese,
+    title={TTS-Portuguese Corpus: a corpus for speech synthesis in Brazilian Portuguese},
+    author={Edresson Casanova and Arnaldo Candido Junior and Christopher Shulby and Frederico Santos de Oliveira and João Paulo Teixeira and Moacir Antonelli Ponti and Sandra Maria Aluisio},
+    year={2020},
+    eprint={2005.05144},
+    archivePrefix={arXiv},
+    primaryClass={eess.AS}
 }
 
 ```
