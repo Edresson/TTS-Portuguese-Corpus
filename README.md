@@ -51,5 +51,14 @@ Preprint:
 
 Full Paper:
 ```
-coming soon
+@article{casanova2022tts,
+  title={TTS-Portuguese Corpus: a corpus for speech synthesis in Brazilian Portuguese},
+  author={Casanova, Edresson and Junior, Arnaldo Candido and Shulby, Christopher and Oliveira, Frederico Santos de and Teixeira, Jo{\~a}o Paulo and Ponti, Moacir Antonelli and Alu{\'\i}sio, Sandra},
+  journal={Language Resources and Evaluation},
+  pages={1--13},
+  year={2022},
+  publisher={Springer}
+}
+
+
 ```
