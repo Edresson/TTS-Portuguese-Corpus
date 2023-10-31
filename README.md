@@ -7,11 +7,11 @@ Since the audios were not recorded in an acoustic studio, there is noise present
 
 Download this Dataset: 
 
-[TTS-Portuguese Corpus 48Khz (as recorded)](https://drive.google.com/file/d/19Wx6b-Wq49EJ9qVrH01J5aWok0GzIn13/view?usp=sharing)
+[TTS-Portuguese Corpus 48Khz (as recorded)](https://huggingface.co/datasets/Edresson/TTS-Portuguese-Corpus/resolve/main/TTS-Portuguese-Corpus.zip)
 
-[TTS-Portuguese Corpus 22Khz (with train, dev and test subsets)](https://drive.google.com/file/d/1ujlfIl7iN-0HJ2vAtbZGFbP43u-NBFav/view?usp=sharing)
+[TTS-Portuguese Corpus 48Khz (as recorded) Dropbox](https://www.dropbox.com/s/ohpc7epowv9ct7o/TTS-Portuguese-Corpus.zip?dl=0)
 
-Using [Gdown](https://github.com/wkentaro/gdown): ```gdown --id 1ujlfIl7iN-0HJ2vAtbZGFbP43u-NBFav```
+Using [Wget](https://www.gnu.org/software/wget/): ```wget  https://huggingface.co/datasets/Edresson/TTS-Portuguese-Corpus/resolve/main/TTS-Portuguese-Corpus.zip```
 
 **Audio samples** synthesized with best models: https://edresson.github.io/TTS-Portuguese-Corpus/
 
