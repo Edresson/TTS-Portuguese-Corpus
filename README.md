@@ -11,7 +11,7 @@ Download this Dataset:
 
 [TTS-Portuguese Corpus 48Khz (as recorded) Dropbox](https://www.dropbox.com/s/ohpc7epowv9ct7o/TTS-Portuguese-Corpus.zip?dl=0)
 
-Using [Wget](https://www.gnu.org/software/wget/): ```wget  https://huggingface.co/datasets/Edresson/TTS-Portuguese-Corpus/resolve/main/TTS-Portuguese-Corpus.zip```
+Using [Wget](https://www.gnu.org/software/wget/): ```wget https://www.dropbox.com/s/ohpc7epowv9ct7o/TTS-Portuguese-Corpus.zip```
 
 **Audio samples** synthesized with best models: https://edresson.github.io/TTS-Portuguese-Corpus/
 
